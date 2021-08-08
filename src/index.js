@@ -215,11 +215,11 @@
 // }
 
 // || は左側がfalseなら右右を返す
-const num = 100;
-const fee = num || "金額未設定です";
-console.log(fee);
+// const num = 100;
+// const fee = num || "金額未設定です";
+// console.log(fee);
 
-// && は左側がtureなら右側を返す
-const num2 = 100;
-const fee2 = num2 && "何か設定されました";
-console.log(fee2);
+// // && は左側がtureなら右側を返す
+// const num2 = 100;
+// const fee2 = num2 && "何か設定されました";
+// console.log(fee2);
