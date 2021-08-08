@@ -86,7 +86,7 @@
 /**
  * 分割代入
  */
-// オブジェクトの場合
+// // オブジェクトの場合
 // const myProfile = {
 //   name: "Rin",
 //   age: "22"
@@ -99,12 +99,17 @@
 // const message2 = `名前は${name}です。年齢は${age}歳です。`;
 // console.log(message2);
 
-// 配列の場合
-const myProfile = ["Rin", 22];
+//// 配列の場合
+// const myProfile = ["Rin", 22];
 
-const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}歳です。`;
-console.log(message3);
+// const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}歳です。`;
+// console.log(message3);
 
-const [name, age] = myProfile; // 配列の場合は受け取るのが配列ないの順番になる
-const message4 = `名前は${name}です。年齢は${age}歳です。`;
-console.log(message4);
+// const [name, age] = myProfile; // 配列の場合は受け取るのが配列ないの順番になる
+// const message4 = `名前は${name}です。年齢は${age}歳です。`;
+// console.log(message4);
+/**
+ * デフォルト値、引数など
+ */
+const sayHello = (name = "ゲスト") => console.log(`こんにちは！${name}さん！`);
+sayHello();
